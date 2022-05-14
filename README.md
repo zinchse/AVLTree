@@ -8,7 +8,7 @@ AVL tree is one of the most powerful yet simple data structures. To my surprise,
 So I decided to do it myself. Besides, he immediately began to support the subtree size parameter for each nodes and implemented, on the basis of this, the search for k-th statistics on the tree.
 
 I based on the following [implementation](https://github.com/pgrafov/python-avl-tree/blob/master/pyavltree.py).
-also for a complete understanding of all rotations and other operations, I advise you to read the following [article](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/).
+Also for a complete understanding of all rotations and other operations, I advise you to read the following [article](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/).
 
 ## Overview
 
