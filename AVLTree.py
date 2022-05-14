@@ -420,7 +420,6 @@ class AVLTree():
                 self.resize(C)                
                 
         else:
-            assert (node_to_rebalance.balance() == +2)
             if node_to_rebalance.leftChild.balance() >= 0:
                 B = A.leftChild
                 C = B.leftChild
