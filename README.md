@@ -16,7 +16,7 @@ The AVL tree is a special case of a search tree that maintains some invariant re
 This allows you to maintain the speed of inserting and deleting an element of the order of the logarithm of the number of vertices in the tree.
 
 
-## Example 
+## Interface examples
 
 ### Print
 
