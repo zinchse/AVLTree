@@ -23,13 +23,13 @@ This allows you to maintain the speed of inserting and deleting an element of th
 ```
         >>> tree = AVLTree([1,2,3,4,5,6])
         >>> print(tree)
-        >>>        4       
-        >>>       / \        
-        >>>      /   \       
-        >>>     /     \      
-        >>>    2       5   
-        >>>   / \       \      
-        >>>  1   3       6
+                4       
+               / \        
+              /   \       
+             /     \      
+            2       5   
+           / \       \      
+          1   3       6
 ```        
 
 ### Remove
@@ -37,21 +37,21 @@ This allows you to maintain the speed of inserting and deleting an element of th
         >>> tree = AVLTree([1,2,3,4,5,6])
         >>> tree.remove(3)
         >>> print(tree)   
-        >>>        4       
-        >>>       / \        
-        >>>      /   \       
-        >>>     /     \      
-        >>>    2       5   
-        >>>   /         \      
-        >>>  1           6         
+                4       
+               / \        
+              /   \       
+             /     \      
+            2       5   
+           /         \      
+          1           6         
 ```                
 ### k-th find        
 ```               
         >>> tree = AVLTree([1,2,3,4,5,6])
         >>> tree.findkth(2) 
-        >>> 2
+         2
         >>> tree.findkth(2,tree.rootNode.rightChild)
-        >>> 6  
+         6  
 ```        
 
 ## File structure
