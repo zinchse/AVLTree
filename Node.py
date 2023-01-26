@@ -1,4 +1,5 @@
 class Node:
+    
     def __init__(self, key):
         self.key = key
         self.parent = None
@@ -6,10 +7,13 @@ class Node:
         self.leftChild = None         
         self.height = 0
         self.size = 1
+        
     def __str__(self):
         return str(self.key)#+'('+str(self.height)+')'
+    
     def is_leaf(self):
         return self.height == 0
+    
     def max_children_height(self):
         if self.leftChild and self.rightChild:
             return max(self.leftChild.height,self.rightChild.height)
